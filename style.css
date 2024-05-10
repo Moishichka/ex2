@@ -347,19 +347,6 @@ table {
   display: flex;
 }
 
-/* изображение товара */
-.card__label {
-  color: #d62240;
-}
-.card__image {
-  display: block;
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-  background-color: white;
-  text-align: center
-}
-
 /* о нас */
 .content {
   font-family: 'Calisto MT';
