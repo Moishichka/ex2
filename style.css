@@ -347,7 +347,6 @@ table {
   display: flex;
 }
 
-
 /* изображение товара */
 .card__label {
   color: #d62240;
@@ -361,13 +360,6 @@ table {
   text-align: center
 }
 
-/* о нас */
-.content {
-  font-family: 'Calisto MT';
-  padding: 10px;
-  font-size: 20px;
-  color: white;
-}
 
 /* обратная связь */
 .feedback-form {
