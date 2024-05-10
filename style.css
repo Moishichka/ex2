@@ -1,4 +1,4 @@
-/* Основные стили */
+/* General styles */
 body {
   background-color: #000000;
 }
@@ -26,12 +26,12 @@ table {
   border-collapse: collapse;
 }
 
-/* BOX */
+/* Box sizing */
 * {
   box-sizing: border-box;
 }
 
-/* Меню */
+/* Widget styles */
 .widget {
   float: left;
   padding: 111px 30px;
@@ -69,7 +69,7 @@ table {
   color: #DB7093;
 }
 
-/* голова */
+/* Header styles */
 .header {
   font-family: Arial, sans-serif;
   background-image: url("image/taylor_guitar-wall1.jpg");
@@ -78,7 +78,7 @@ table {
   background-attachment: fixed;
 }
 
-/* карточки*/
+/* Cards styles */
 .cards {
   margin-bottom: 15px;
   display: grid;
@@ -134,7 +134,7 @@ table {
   text-align: center;
 }
 
-/* карточка товара */
+/* Card styles */
 .card__title {
   display: block;
   margin-bottom: 10px;
@@ -157,7 +157,7 @@ table {
   margin-bottom: 10px;
 }
 .card__price {
-  flex: 0 0 50%;
+  flex: 0 0 54%;
 }
 .card__price:after {
   content: "₽";
@@ -168,6 +168,7 @@ table {
   font-weight: 700;
   font-size: 19px;
   color: #ffffff;
+  display: flex;
   flex-wrap: wrap-reverse;
 }
 .card__price--discount::before {
@@ -210,7 +211,7 @@ table {
   color: #fff;
 }
 
-/* корзина */
+/* Cart styles */
 .cart {
   width: 75px;
   height: 75px;
@@ -247,7 +248,7 @@ table {
   right: -5px;
 }
 
-/* оформление зз */
+/* Popup styles */
 .popup {
   position: fixed;
   top: 0;
@@ -347,7 +348,7 @@ table {
   display: flex;
 }
 
-/* изображение товара */
+/* Card label and image */
 .card__label {
   color: #d62240;
 }
@@ -360,8 +361,16 @@ table {
   text-align: center
 }
 
+/* Content styles */
+.content {
+  background-image: url("фон6.jpg");
+  font-family: 'Calisto MT';
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
 
-/* обратная связь */
+/* Feedback form styles */
 .feedback-form {
   text-align: center;
   margin-right: 15px;
@@ -407,7 +416,7 @@ table {
   color: #fff;
 }
 
-/* нижний колонтитул */
+/* Footer styles */
 footer {
   padding: 10px;
   color: white;
@@ -422,7 +431,7 @@ footer {
   background-attachment: fixed;
 }
 
-/* страница товара */
+
 .product-container {
   display: flex;
   flex-direction: row;
@@ -436,7 +445,7 @@ footer {
 h1 {
   text-align: center;
   color: rgb(255, 255, 255);
-  margin-bottom: 20px; 
+  margin-bottom: 20px; /* Добавлено для отступа снизу */
 }
 
 .product-gallery {
@@ -499,7 +508,7 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   width: 40%;
-  margin-left: 30px;
+  margin-left: 30px; /* Добавлено для отступа слева */
 }
 
 .product-rating {
@@ -540,8 +549,8 @@ h1 {
 }
 
 
-/* отзывы */
- 
+
+
 .reviews-container {
   display: flex;
   flex-direction: row;
