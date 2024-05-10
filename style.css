@@ -1,4 +1,4 @@
-/* General styles */
+/* Основные стили */
 body {
   background-color: #000000;
 }
@@ -26,12 +26,14 @@ table {
   border-collapse: collapse;
 }
 
-/* Box sizing */
+/* Box */
+
 * {
   box-sizing: border-box;
 }
 
-/* Widget styles */
+/* Меню */
+
 .widget {
   float: left;
   padding: 111px 30px;
@@ -69,7 +71,8 @@ table {
   color: #DB7093;
 }
 
-/* Header styles */
+/* голова */
+
 .header {
   font-family: Arial, sans-serif;
   background-image: url("image/taylor_guitar-wall1.jpg");
@@ -78,7 +81,8 @@ table {
   background-attachment: fixed;
 }
 
-/* Cards styles */
+/* карточки*/
+
 .cards {
   margin-bottom: 15px;
   display: grid;
@@ -134,7 +138,7 @@ table {
   text-align: center;
 }
 
-/* Card styles */
+/* карточка товара */
 .card__title {
   display: block;
   margin-bottom: 10px;
@@ -211,7 +215,8 @@ table {
   color: #fff;
 }
 
-/* Cart styles */
+/* корзина */
+
 .cart {
   width: 75px;
   height: 75px;
@@ -248,7 +253,8 @@ table {
   right: -5px;
 }
 
-/* Popup styles */
+/* оформление зз */
+
 .popup {
   position: fixed;
   top: 0;
@@ -348,7 +354,7 @@ table {
   display: flex;
 }
 
-/* Card label and image */
+/* картинка товара в каталоге */
 .card__label {
   color: #d62240;
 }
@@ -361,16 +367,15 @@ table {
   text-align: center
 }
 
-/* Content styles */
+/* о нас */
 .content {
-  background-image: url("фон6.jpg");
   font-family: 'Calisto MT';
   padding: 10px;
   font-size: 20px;
   color: white;
 }
 
-/* Feedback form styles */
+/* обратная связь */
 .feedback-form {
   text-align: center;
   margin-right: 15px;
@@ -416,7 +421,8 @@ table {
   color: #fff;
 }
 
-/* Footer styles */
+/* нижний колонтитул */
+
 footer {
   padding: 10px;
   color: white;
@@ -431,6 +437,7 @@ footer {
   background-attachment: fixed;
 }
 
+/* страница товара */
 
 .product-container {
   display: flex;
@@ -508,7 +515,7 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   width: 40%;
-  margin-left: 30px; /* Добавлено для отступа слева */
+  margin-left: 30px;
 }
 
 .product-rating {
@@ -548,8 +555,7 @@ h1 {
   color: #ffffff;
 }
 
-
-
+/* отзывы */
 
 .reviews-container {
   display: flex;
